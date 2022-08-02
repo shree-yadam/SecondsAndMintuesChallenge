@@ -22,7 +22,14 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        System.out.println(getDurationString(0, 60));
+        System.out.println(getDurationString(-1));
+        System.out.println(getDurationString(61, -1));
+        System.out.println(getDurationString(-1,40));
+        System.out.println(getDurationString(0, 0));
+        System.out.println(getDurationString(0));
         System.out.println(getDurationString(61, 0));
         System.out.println(getDurationString(61 * 60));
+        System.out.println(getDurationString(65, 45));
     }
 }
